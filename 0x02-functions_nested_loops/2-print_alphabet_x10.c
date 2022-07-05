@@ -2,15 +2,19 @@
 
 
 /**
- * print_alphabet - prints the alphabet, in lowercase followed by a new line
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowecase
  *
- * Return: no return value
+ * Return: no return
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-char c = 'a';
+char c = '\0';
+int n = 10;
 
-while (c <= 'z')
-_putchar(c++);
+while (n--)
+{
+for (c = 'a'; c <= 'z'; c++)
+_putchar(c);
 _putchar('\n');
+}
 }
