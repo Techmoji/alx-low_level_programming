@@ -1,4 +1,4 @@
-#include "main.h"
+#include <studio.h>
 /**
  * times_table -prints tables
  * Return: nothing
